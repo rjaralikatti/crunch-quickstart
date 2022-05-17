@@ -1,6 +1,6 @@
-package com.needforcode.crunch.pipeline;
+package com.raju.crunch.pipeline;
 
-import com.needforcode.crunch.dofn.Tokenizer;
+import com.raju.crunch.dofn.Tokenizer;
 import org.apache.crunch.PCollection;
 import org.apache.crunch.PTable;
 import org.apache.crunch.Pipeline;
@@ -40,7 +40,7 @@ public class WordCountSparkPipeline extends Configured implements Tool {
         
         JavaSparkContext context = new JavaSparkContext();
 
-        Pipeline pipeline = new SparkPipeline(context, "com.needforcode.spark word count example");
+        Pipeline pipeline = new SparkPipeline(context, "com.raju.spark word count example");
 
         PCollection<String> lines = pipeline.readTextFile(inputPath);
 

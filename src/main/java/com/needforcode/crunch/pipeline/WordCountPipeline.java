@@ -1,8 +1,8 @@
-package com.needforcode.crunch.pipeline;
+package com.raju.crunch.pipeline;
 
 import java.io.File;
 
-import com.needforcode.crunch.dofn.Tokenizer;
+import com.raju.crunch.dofn.Tokenizer;
 import org.apache.crunch.PCollection;
 import org.apache.crunch.PTable;
 import org.apache.crunch.Pipeline;

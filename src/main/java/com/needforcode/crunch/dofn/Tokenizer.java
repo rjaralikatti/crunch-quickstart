@@ -1,4 +1,4 @@
-package com.needforcode.crunch.dofn;
+package com.raju.crunch.dofn;
 
 import org.apache.crunch.DoFn;
 import org.apache.crunch.Emitter;

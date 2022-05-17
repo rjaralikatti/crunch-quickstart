@@ -1,4 +1,4 @@
-package com.needforcode.crunch.dofn;
+package com.raju.crunch.dofn;
 
 import org.apache.avro.generic.GenericData.Record;
 import org.apache.crunch.DoFn;

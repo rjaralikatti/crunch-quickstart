@@ -1,4 +1,4 @@
-package com.needforcode.crunch.filterfn;
+package com.raju.crunch.filterfn;
 
 import org.apache.avro.generic.GenericData.Record;
 import org.apache.crunch.FilterFn;

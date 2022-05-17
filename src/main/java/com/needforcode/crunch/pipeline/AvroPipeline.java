@@ -1,4 +1,4 @@
-package com.needforcode.crunch.pipeline;
+package com.raju.crunch.pipeline;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;
@@ -14,10 +14,10 @@ import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import com.needforcode.crunch.dofn.OrderTotalDoFn;
-import com.needforcode.crunch.filterfn.OrdersFilterFn;
-import com.needforcode.crunch.mapfn.OrderItemsMapFn;
-import com.needforcode.crunch.mapfn.OrdersMapFn;
+import com.raju.crunch.dofn.OrderTotalDoFn;
+import com.raju.crunch.filterfn.OrdersFilterFn;
+import com.raju.crunch.mapfn.OrderItemsMapFn;
+import com.raju.crunch.mapfn.OrdersMapFn;
 
 import java.io.File;
 

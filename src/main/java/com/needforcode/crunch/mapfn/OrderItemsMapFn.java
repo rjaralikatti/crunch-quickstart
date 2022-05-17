@@ -1,4 +1,4 @@
-package com.needforcode.crunch.mapfn;
+package com.raju.crunch.mapfn;
 
 import org.apache.avro.generic.GenericData.Record;
 import org.apache.crunch.MapFn;
